@@ -21,7 +21,7 @@ void init() {
     STM_EVAL_LEDInit(LED6);
 
     // Initialize button GPIO
-    STM_EVAL_PBInit(BUTTON_USER, BUTTON_MODE_EXTI);
+    //STM_EVAL_PBInit(BUTTON_USER, BUTTON_MODE_EXTI);
 
     // Timer stop on debug
     #ifdef STOP_TIMER_ON_DEBUG
