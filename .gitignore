@@ -2,3 +2,7 @@
 *.elf
 *.bin
 *.hex
+.cproject
+.settings
+.project
+/Default/

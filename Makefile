@@ -1,19 +1,17 @@
-
 STLINK=/usr/bin
 PROJ_NAME=matrixclock
 STM_COMMON=STM32F4-Discovery_FW_V1.1.0
 SRCS = main.c 
-SRCS +=  tools/itoa.c
+SRCS += $(wildcard tlc5940/*.c)
+SRCS += tools/itoa.c
 SRCS += system_stm32f4xx.c $(STM_COMMON)/Utilities/STM32F4-Discovery/stm32f4_discovery.c
 SRCS += $(wildcard STM32F4-Discovery_FW_V1.1.0/Libraries/STM32F4xx_StdPeriph_Driver/src/*.c)
 
-# Normally you shouldn't need to change anything below this line!
-#######################################################################################
 
 CC=arm-none-eabi-gcc
 OBJCOPY=arm-none-eabi-objcopy
 
-CFLAGS  = -g -O2 -Wall -Tmylink.ld 
+CFLAGS  = -g -O0 -Wall -Tmylink.ld 
 CFLAGS += -mlittle-endian -mthumb -mcpu=cortex-m4 -mthumb-interwork
 CFLAGS += -mfloat-abi=hard -mfpu=fpv4-sp-d16
 CFLAGS += -I.

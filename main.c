@@ -2,10 +2,14 @@
 
 #include "stm32f4xx_dbgmcu.h"
 
-#include "tools/itoa.h"
+//#include "tools/itoa.h"
+
+#include "tlc5940/driver.h"
+
 
 void Delay1ms(uint32_t nCount);
 volatile uint32_t delay1ms;
+
 
 void init() {
 
@@ -25,6 +29,8 @@ void init() {
 	DBGMCU_APB1PeriphConfig(DBGMCU_TIM8_STOP,ENABLE);
 	DBGMCU_Config(DBGMCU_TIM3_STOP,ENABLE);
     #endif
+
+	tlc5940_init();
 
 }
 
