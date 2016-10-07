@@ -106,15 +106,6 @@ void tim3_init(void) {
 	TIM_OCInitStructure.TIM_Pulse = 0x0001;
 	TIM_OCInitStructure.TIM_OCPolarity = TIM_OCPolarity_High;
 	TIM_OC1Init(SIG_GSCLK_TIMER, &TIM_OCInitStructure);
-	TIM_OC1PreloadConfig(SIG_GSCLK_TIMER, TIM_OCPreload_Enable);
-
-	TIM_ARRPreloadConfig(SIG_GSCLK_TIMER, ENABLE);
-
-//	TIM_SelectOutputTrigger(VSYNC_TIMER,  TIM_TRGOSource_Update);
-
-	// Enable MS Mode
-//	TIM_SelectMasterSlaveMode(HSYNC_TIMER, TIM_MasterSlaveMode_Enable);
-
 
 	// enable the counter
 	TIM_Cmd(SIG_GSCLK_TIMER, ENABLE);
