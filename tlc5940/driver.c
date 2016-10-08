@@ -119,7 +119,7 @@ void tim3_init(void) {
 	TIM_OC1Init(SIG_GSCLK_TIMER, &TIM_OCInitStructure);
 
 	// OC Mode configuration: Channel2 (LATCH)
-	TIM_OCInitStructure.TIM_OCMode = TIM_OCMode_PWM2;
+	TIM_OCInitStructure.TIM_OCMode = TIM_OCMode_PWM1;
 	TIM_OCInitStructure.TIM_OutputState = TIM_OutputState_Enable;
 	TIM_OCInitStructure.TIM_OutputNState = TIM_OutputNState_Disable;
 	TIM_OCInitStructure.TIM_Pulse = LATCH_LENGTH;
