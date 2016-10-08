@@ -40,14 +40,20 @@ int main(void) {
 
 	// mainloop (TM)
 	while (1) {
-	    STM_EVAL_LEDToggle(LED3);
-	    Delay1ms(100);
-	    STM_EVAL_LEDToggle(LED4);
-	    Delay1ms(100);
-	    STM_EVAL_LEDToggle(LED5);
-	    Delay1ms(100);
-	    STM_EVAL_LEDToggle(LED6);
-	    Delay1ms(100);	    	
+
+		if (goForIt > 0) {
+			uint16_t i = 0;
+			for (i=0; i<192; i++) {
+				SIG_DATA_PORT->BSRRL = SIG_DATA_SDA_PIN;
+				SIG_DATA_PORT->BSRRL = SIG_DATA_SCK_PIN;
+				SIG_DATA_PORT->BSRRH = SIG_DATA_SCK_PIN;
+				SIG_DATA_PORT->BSRRH = SIG_DATA_SDA_PIN;
+			}
+			goForIt = 0;
+		}
+
+		//SIG_DATA_PORT->ODR ^= SIG_DATA_SDA_PIN;
+		//SIG_DATA_PORT->BSRRL = SIG_DATA_SCK_PIN;
 	}
 
 }
