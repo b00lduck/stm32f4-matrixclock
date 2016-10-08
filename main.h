@@ -1,6 +1,5 @@
 #include <string.h>
 #include <stdio.h>
-#include "config.h"
 #include "macros.h"
 
 #include "stm32f4xx.h"
