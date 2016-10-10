@@ -43,7 +43,7 @@ void tim_gsclk_init(void) {
 	TIM_OCInitStructure.TIM_OCMode = TIM_OCMode_PWM2;
 	TIM_OCInitStructure.TIM_OutputState = TIM_OutputState_Enable;
 	TIM_OCInitStructure.TIM_Pulse = 0x0001;
-	TIM_OCInitStructure.TIM_OCPolarity = TIM_OCPolarity_High;
+	TIM_OCInitStructure.TIM_OCPolarity = TIM_OCPolarity_Low;
 	TIM_OC1Init(SIG_GSCLK_TIMER, &TIM_OCInitStructure);
 
 	// Be a slave of SIG_BLANK_TIMER

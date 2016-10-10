@@ -4,5 +4,7 @@
 *.hex
 .cproject
 .settings
+.metadata
 .project
-/Default/
+Default
+RemoteSystemsTempFiles
