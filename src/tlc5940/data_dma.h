@@ -21,13 +21,16 @@
 #define SIG_DATACLOCK_PINSOURCE		GPIO_PinSource9
 #define SIG_DATACLOCK_PIN_AF		GPIO_AF_TIM8
 
-#define BUFFERSIZE 192
+#define BUFFERSIZE 					(192 * NUMTLCS)
 
 void data_dma_init(void);
 
 
-static inline void prepareDma() {
-	DMA2_Stream1->M0AR = (uint32_t)vram;
+static inline void startDma(uint8_t* target) {
+
+	SIG_DATA_PORT->ODR = *target; // set first byte prior starting the clock
+
+	DMA2_Stream1->M0AR = ((uint32_t) target) + 1;
 	DMA2_Stream1->NDTR = BUFFERSIZE;
 
 	DMA2_Stream1->CR |= DMA_Channel_7 | DMA_Priority_VeryHigh | DMA_MemoryDataSize_Word | DMA_PeripheralDataSize_Byte |
@@ -40,5 +43,4 @@ static inline void prepareDma() {
 
 	// enable the timer
 	SIG_DATA_TIMER->CR1 |= TIM_CR1_CEN;
-
 }

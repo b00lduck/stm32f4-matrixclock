@@ -5,11 +5,14 @@
 #include "tim_master.h"
 #include "timing.h"
 #include "data_dma.h"
-
+#include "tim_gsclk.h"
 
 void tim_master_init(void) {
 
 	GPIO_InitTypeDef GPIO_InitStructure;
+	TIM_TimeBaseInitTypeDef  TIM_TimeBaseStructure;
+	TIM_OCInitTypeDef  TIM_OCInitStructure;
+	NVIC_InitTypeDef NVIC_InitStructure;
 
 	// Timer clock enable
 	RCC_APB1PeriphClockCmd(SIG_MAIN_TIMER_CLK, ENABLE);
@@ -37,11 +40,7 @@ void tim_master_init(void) {
 	// Configure the timer
 	// Generate BLANK/LATCH signals and gate for GSCLK
 
-	TIM_TimeBaseInitTypeDef  TIM_TimeBaseStructure;
-	TIM_OCInitTypeDef  TIM_OCInitStructure;
-	NVIC_InitTypeDef NVIC_InitStructure;
-
-	// Time base configuration
+    // Time base configuration
 	TIM_TimeBaseStructure.TIM_Prescaler = CLOCK_PRESCALE;
 	TIM_TimeBaseStructure.TIM_CounterMode = TIM_CounterMode_CenterAligned2;
 	TIM_TimeBaseStructure.TIM_Period = 0x1000 + BLANK_LENGTH + DELAY_GSCLK;
@@ -105,8 +104,17 @@ void tim_master_init(void) {
 
 }
 
+
 void TIM3_IRQHandler(void) {
-	prepareDma();
+
+	// Reset GSCLK timer to prevent flapping of off state due to uneven length of GSCLK active period
+	SIG_GSCLK_TIMER->CNT = 0;
+
+	// flip video ram buffer
+	activeBuffer ^= 1;
+	startDma(vram[activeBuffer]);
+
+	frameStart = 1;
 	TIM_ClearITPendingBit(SIG_MAIN_TIMER, TIM_IT_CC4);
 }
 

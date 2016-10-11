@@ -1,20 +1,12 @@
 #include "main.h"
-
 #include "stm32f4xx_dbgmcu.h"
-
-//#include "tools/itoa.h"
-
+#include "tlc5940/videoram.h"
 #include "tlc5940/driver.h"
-
-
-void Delay1ms(uint32_t nCount);
-volatile uint32_t delay1ms;
-
 
 void init() {
 
     // Initialize LEDS GPIO
-    SysTick_Config(SystemCoreClock / 1000);
+    // SysTick_Config(SystemCoreClock / 1000);
     STM_EVAL_LEDInit(LED3);
     STM_EVAL_LEDInit(LED4);
     STM_EVAL_LEDInit(LED5);
@@ -30,9 +22,12 @@ void init() {
 	DBGMCU_Config(DBGMCU_TIM3_STOP,ENABLE);
     #endif
 
+	memset(vram, 0x00, VIDEORAMSIZE * 2);
+
 	tlc5940_init();
 
 }
+
 
 int main(void) {
 
@@ -41,29 +36,18 @@ int main(void) {
 	// mainloop (TM)
 	while (1) {
 
-		/*
-		if (goForIt > 0) {
-			uint16_t i = 0;
-			for (i=0; i<192; i++) {
-				SIG_DATA_PORT->BSRRL = SIG_DATA_SDA_PIN;
-				SIG_DATA_PORT->BSRRL = SIG_DATA_SCK_PIN;
-				SIG_DATA_PORT->BSRRH = SIG_DATA_SCK_PIN;
-				SIG_DATA_PORT->BSRRH = SIG_DATA_SDA_PIN;
-			}
-			goForIt = 0;
-		}*/
+		while (frameStart == 0) {
+			STM_EVAL_LEDOff(LED3);
+		}
 
-		//SIG_DATA_PORT->ODR ^= SIG_DATA_SDA_PIN;
-		//SIG_DATA_PORT->BSRRL = SIG_DATA_SCK_PIN;
+		STM_EVAL_LEDOn(LED3);
+
+		convertFrame();
+
+		STM_EVAL_LEDOff(LED3);
+
+		frameStart = 0;
+
 	}
 
-}
-
-void SysTick_Handler(void) {
-    if(delay1ms) delay1ms--;
-}
-
-void Delay1ms(uint32_t nCount) {
-    delay1ms = nCount;
-    while(delay1ms);
 }

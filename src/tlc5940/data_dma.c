@@ -67,7 +67,7 @@ void data_dma_init() {
 	TIM_OCInitStructure.TIM_OCMode = TIM_OCMode_PWM2;
 	TIM_OCInitStructure.TIM_OutputState = TIM_OutputState_Enable;
 	TIM_OCInitStructure.TIM_OutputNState = TIM_OutputNState_Disable;
-	TIM_OCInitStructure.TIM_Pulse = DMA_PERIOD >> 1;
+	TIM_OCInitStructure.TIM_Pulse = (DMA_PERIOD >> 1) - 1;
 	TIM_OCInitStructure.TIM_OCPolarity = TIM_OCPolarity_High;
 	TIM_OCInitStructure.TIM_OCIdleState = TIM_OCIdleState_Reset;
     TIM_OC4Init(SIG_DATA_TIMER, &TIM_OCInitStructure);
@@ -87,10 +87,10 @@ void data_dma_init() {
 	DMA_InitStructure.DMA_PeripheralInc = DMA_PeripheralInc_Disable;
 	DMA_InitStructure.DMA_MemoryInc = DMA_MemoryInc_Enable;
 	DMA_InitStructure.DMA_PeripheralDataSize = DMA_PeripheralDataSize_Byte;
-	DMA_InitStructure.DMA_MemoryDataSize = DMA_MemoryDataSize_HalfWord;
+	DMA_InitStructure.DMA_MemoryDataSize = DMA_MemoryDataSize_Byte;
 	DMA_InitStructure.DMA_Mode = DMA_Mode_Normal;
 	DMA_InitStructure.DMA_Priority = DMA_Priority_VeryHigh;
-	DMA_InitStructure.DMA_FIFOMode = DMA_FIFOMode_Enable;
+	DMA_InitStructure.DMA_FIFOMode = DMA_FIFOMode_Disable;
 	DMA_InitStructure.DMA_FIFOThreshold = DMA_FIFOThreshold_Full;
 	DMA_InitStructure.DMA_MemoryBurst = DMA_MemoryBurst_Single;
 	DMA_InitStructure.DMA_PeripheralBurst = DMA_PeripheralBurst_Single;
@@ -108,7 +108,6 @@ void data_dma_init() {
     NVIC_InitStructure.NVIC_IRQChannelSubPriority = 15;
     NVIC_InitStructure.NVIC_IRQChannelCmd = ENABLE;
     NVIC_Init(&NVIC_InitStructure);
-
 }
 
 
@@ -122,7 +121,4 @@ void DMA2_Stream1_IRQHandler(void) {
 
 	// disable the timer
 	SIG_DATA_TIMER->CR1 &= ~TIM_CR1_CEN;
-
 }
-
-

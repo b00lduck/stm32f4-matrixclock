@@ -34,16 +34,16 @@ void tim_gsclk_init(void) {
 
 	// Time base configuration
 	TIM_TimeBaseStructure.TIM_Prescaler = CLOCK_PRESCALE;
-	TIM_TimeBaseStructure.TIM_Period = 0x0001;
-	TIM_TimeBaseStructure.TIM_ClockDivision = TIM_CKD_DIV1;
+	TIM_TimeBaseStructure.TIM_Period = 0x0003;
+	TIM_TimeBaseStructure.TIM_ClockDivision = TIM_CKD_DIV2;
 	TIM_TimeBaseStructure.TIM_CounterMode = TIM_CounterMode_Up;
 	TIM_TimeBaseInit(SIG_GSCLK_TIMER, &TIM_TimeBaseStructure);
 
 	// PWM1 Mode configuration: Channel1
 	TIM_OCInitStructure.TIM_OCMode = TIM_OCMode_PWM2;
 	TIM_OCInitStructure.TIM_OutputState = TIM_OutputState_Enable;
-	TIM_OCInitStructure.TIM_Pulse = 0x0001;
-	TIM_OCInitStructure.TIM_OCPolarity = TIM_OCPolarity_Low;
+	TIM_OCInitStructure.TIM_Pulse = 0x0002;
+	TIM_OCInitStructure.TIM_OCPolarity = TIM_OCPolarity_High;
 	TIM_OC1Init(SIG_GSCLK_TIMER, &TIM_OCInitStructure);
 
 	// Be a slave of SIG_BLANK_TIMER

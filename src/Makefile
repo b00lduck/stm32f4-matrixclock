@@ -11,7 +11,7 @@ SRCS += $(wildcard STM32F4-Discovery_FW_V1.1.0/Libraries/STM32F4xx_StdPeriph_Dri
 CC=arm-none-eabi-gcc
 OBJCOPY=arm-none-eabi-objcopy
 
-CFLAGS  = -g -O0 -Wall -Tmylink.ld 
+CFLAGS  = -g -O0 -Wall -Tmylink.ld -std=gnu11
 CFLAGS += -mlittle-endian -mthumb -mcpu=cortex-m4 -mthumb-interwork
 CFLAGS += -mfloat-abi=hard -mfpu=fpv4-sp-d16
 CFLAGS += -I.
