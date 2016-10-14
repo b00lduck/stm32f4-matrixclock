@@ -1,3 +1,2 @@
 (fp_lib_table
-  (lib (name matrixclock)(type KiCad)(uri "$(KIPRJMOD)/matrixclock.pretty")(options "")(descr ""))
 )

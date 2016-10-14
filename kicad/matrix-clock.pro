@@ -1,4 +1,4 @@
-update=Mo 10 Okt 2016 15:07:46 CEST
+update=Fr 14 Okt 2016 12:51:00 CEST
 version=1
 last_client=kicad
 [cvpcb]
@@ -8,7 +8,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=iheart-kicad-lib
+LibDir=iheart-kicad-lib;kicadlibrary;matrixclock.pretty
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -40,6 +40,7 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=iheart-kicad-lib/IHE
+LibName31=kicadlibrary/open-project
 [pcbnew]
 version=1
 PageLayoutDescrFile=
