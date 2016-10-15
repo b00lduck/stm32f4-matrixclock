@@ -1,0 +1,1883 @@
+Cmp-Mod V01 Created by PcbNew   date = Sa 15 Okt 2016 20:25:50 CEST
+
+BeginCmp
+TimeStamp = 57FA52CC
+Path = /57FF3E0B
+Reference = D24;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA53BC
+Path = /57FF482E
+Reference = D64;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA538C
+Path = /57FF4804
+Reference = D56;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA535C
+Path = /57FF434F
+Reference = D48;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA532C
+Path = /57FF4325
+Reference = D40;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 580271D7
+Path = 
+Reference = REF***;
+ValeurCmp = OSHW-Logo2_14.6x12mm_SilkScreen;
+IdModule  = Symbols:OSHW-Logo2_14.6x12mm_SilkScreen;
+EndCmp
+
+BeginCmp
+TimeStamp = 5802714B
+Path = 
+Reference = REF***;
+ValeurCmp = KiCad-Logo2_8mm_SilkScreen;
+IdModule  = Symbols:KiCad-Logo2_8mm_SilkScreen;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801668F
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801668B
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58016687
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58016683
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801667F
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801667B
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58016677
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801666F
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801666B
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58016667
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58016663
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801665F
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801665B
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58016657
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58016653
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801296E
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801296A
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801663F
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58016637
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58016633
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801662F
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58016623
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801661F
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801661B
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58016617
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58016613
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801660F
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801660B
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58016607
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58016603
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 580165FF
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 580165FB
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 580165F7
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 580165F3
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 580165EF
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 580165A7
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58012853
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801284F
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801284B
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58012847
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58012843
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801283F
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801283B
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58012837
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58012833
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801282F
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801282B
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 580165A3
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801659B
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58016597
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58016593
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801658F
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801658B
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58016587
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58016583
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58012808
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58012804
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58012800
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 580127FC
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 580127F8
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 580127F4
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 580127F0
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 580127EC
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 580127E8
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 580127E4
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 580127E0
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801657F
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58016573
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801656F
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6283
+Path = /57FF5BA9
+Reference = D88;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA62BF
+Path = /57FF20FB
+Reference = D98;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FE44F5
+Path = /57FAEAFF
+Reference = R1;
+ValeurCmp = 1.5k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FE44FA
+Path = /57FB4A83
+Reference = R2;
+ValeurCmp = 1.5k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FE44FF
+Path = /57FB6FC8
+Reference = R3;
+ValeurCmp = 1.5k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6550
+Path = /57FCBA07
+Reference = P1;
+ValeurCmp = [NoVal];
+IdModule  = Pin_Headers:Pin_Header_Straight_2x08;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA40F0
+Path = /57FAD898
+Reference = D10;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA52AE
+Path = /57FF3DED
+Reference = D19;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA40D2
+Path = /57FAD733
+Reference = D5;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA40CC
+Path = /57FAD72D
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA40C0
+Path = /57FAD488
+Reference = D2;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA40BA
+Path = /57FAD403
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA4102
+Path = /57FADD34
+Reference = D13;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA40C6
+Path = /57FAD524
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA40D8
+Path = /57FAD739
+Reference = D6;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA40DE
+Path = /57FAD881
+Reference = D7;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA40E4
+Path = /57FAD887
+Reference = D8;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA40EA
+Path = /57FAD88D
+Reference = D9;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA40F6
+Path = /57FAD89E
+Reference = D11;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA40FC
+Path = /57FAD8A4
+Reference = D12;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA4108
+Path = /57FADD3A
+Reference = D14;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA410E
+Path = /57FADD40
+Reference = D15;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA4114
+Path = /57FADD4A
+Reference = D16;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA52A2
+Path = /57FF3DE1
+Reference = D17;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA52A8
+Path = /57FF3DE7
+Reference = D18;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA52B4
+Path = /57FF3DF3
+Reference = D20;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA52BA
+Path = /57FF3DF9
+Reference = D21;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA52C0
+Path = /57FF3DFF
+Reference = D22;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA52C6
+Path = /57FF3E05
+Reference = D23;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA52D2
+Path = /57FF3E11
+Reference = D25;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA52D8
+Path = /57FF3E17
+Reference = D26;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA52DE
+Path = /57FF3E1D
+Reference = D27;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA52E4
+Path = /57FF3E23
+Reference = D28;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA52EA
+Path = /57FF3E29
+Reference = D29;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA52F0
+Path = /57FF3E2F
+Reference = D30;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA52F6
+Path = /57FF3E41
+Reference = D31;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA52FC
+Path = /57FF3E35
+Reference = D32;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA5302
+Path = /57FF42FB
+Reference = D33;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA5308
+Path = /57FF4301
+Reference = D34;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA530E
+Path = /57FF4307
+Reference = D35;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA5314
+Path = /57FF430D
+Reference = D36;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA531A
+Path = /57FF4313
+Reference = D37;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA5320
+Path = /57FF4319
+Reference = D38;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA5326
+Path = /57FF431F
+Reference = D39;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA5332
+Path = /57FF432B
+Reference = D41;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA5338
+Path = /57FF4331
+Reference = D42;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA533E
+Path = /57FF4337
+Reference = D43;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA5344
+Path = /57FF433D
+Reference = D44;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA534A
+Path = /57FF4343
+Reference = D45;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA5350
+Path = /57FF4349
+Reference = D46;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA5356
+Path = /57FF435B
+Reference = D47;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA5362
+Path = /57FF47DA
+Reference = D49;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA5368
+Path = /57FF47E0
+Reference = D50;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA536E
+Path = /57FF47E6
+Reference = D51;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA5374
+Path = /57FF47EC
+Reference = D52;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA537A
+Path = /57FF47F2
+Reference = D53;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA5380
+Path = /57FF47F8
+Reference = D54;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA5386
+Path = /57FF47FE
+Reference = D55;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA5392
+Path = /57FF480A
+Reference = D57;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA5398
+Path = /57FF4810
+Reference = D58;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA539E
+Path = /57FF4816
+Reference = D59;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA53A4
+Path = /57FF481C
+Reference = D60;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA53AA
+Path = /57FF4822
+Reference = D61;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA53B0
+Path = /57FF4828
+Reference = D62;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA53B6
+Path = /57FF483A
+Reference = D63;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA61F9
+Path = /57FF5520
+Reference = D65;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA61FF
+Path = /57FF5526
+Reference = D66;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6205
+Path = /57FF552C
+Reference = D67;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA620B
+Path = /57FF5532
+Reference = D68;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6211
+Path = /57FF5538
+Reference = D69;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6217
+Path = /57FF553E
+Reference = D70;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA621D
+Path = /57FF5544
+Reference = D71;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6223
+Path = /57FF554A
+Reference = D72;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6229
+Path = /57FF5550
+Reference = D73;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA622F
+Path = /57FF5556
+Reference = D74;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6235
+Path = /57FF555C
+Reference = D75;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA623B
+Path = /57FF5562
+Reference = D76;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6241
+Path = /57FF5568
+Reference = D77;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6247
+Path = /57FF556E
+Reference = D78;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA624D
+Path = /57FF5580
+Reference = D79;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6253
+Path = /57FF5574
+Reference = D80;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6259
+Path = /57FF5B7F
+Reference = D81;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA625F
+Path = /57FF5B85
+Reference = D82;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6265
+Path = /57FF5B8B
+Reference = D83;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA626B
+Path = /57FF5B91
+Reference = D84;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6271
+Path = /57FF5B97
+Reference = D85;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6277
+Path = /57FF5B9D
+Reference = D86;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA627D
+Path = /57FF5BA3
+Reference = D87;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6289
+Path = /57FF5BAF
+Reference = D89;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA628F
+Path = /57FF5BB5
+Reference = D90;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6295
+Path = /57FF5BBB
+Reference = D91;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA629B
+Path = /57FF5BC1
+Reference = D92;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA62A1
+Path = /57FF5BC7
+Reference = D93;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA62A7
+Path = /57FF5BCD
+Reference = D94;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA62AD
+Path = /57FF5BDF
+Reference = D95;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA62B3
+Path = /57FF5BD3
+Reference = D96;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA62B9
+Path = /57FF20F5
+Reference = D97;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA62C5
+Path = /57FF2101
+Reference = D99;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA62CB
+Path = /57FF2107
+Reference = D100;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA62D1
+Path = /57FF210D
+Reference = D101;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA62D7
+Path = /57FF2113
+Reference = D102;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA62DD
+Path = /57FF2119
+Reference = D103;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA62E3
+Path = /57FF211F
+Reference = D104;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA62E9
+Path = /57FF2125
+Reference = D105;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA62EF
+Path = /57FF212B
+Reference = D106;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA62F5
+Path = /57FF2131
+Reference = D107;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA62FB
+Path = /57FF2137
+Reference = D108;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6301
+Path = /57FF213D
+Reference = D109;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6307
+Path = /57FF2143
+Reference = D110;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA630D
+Path = /57FF214F
+Reference = D111;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6313
+Path = /57FF2149
+Reference = D112;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6319
+Path = /57FDA5FD
+Reference = D113;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA631F
+Path = /57FDA603
+Reference = D114;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6325
+Path = /57FDA609
+Reference = D115;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA632B
+Path = /57FDA60F
+Reference = D116;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6331
+Path = /57FDA615
+Reference = D117;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6337
+Path = /57FDA61B
+Reference = D118;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA633D
+Path = /57FDA621
+Reference = D119;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6343
+Path = /57FDA627
+Reference = D120;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6349
+Path = /57FDA62D
+Reference = D121;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA634F
+Path = /57FDA633
+Reference = D122;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6355
+Path = /57FDA639
+Reference = D123;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA635B
+Path = /57FDA63F
+Reference = D124;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6361
+Path = /57FDA645
+Reference = D125;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6367
+Path = /57FDA64B
+Reference = D126;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA636D
+Path = /57FDA651
+Reference = D127;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FA6373
+Path = /57FDA657
+Reference = D128;
+ValeurCmp = LED;
+IdModule  = matrixclock:MENTOR 50.046;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FE4504
+Path = /57FB708C
+Reference = R4;
+ValeurCmp = 1.5k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FE4509
+Path = /57FC37A5
+Reference = R5;
+ValeurCmp = 1.5k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FE450E
+Path = /57FC44FD
+Reference = R6;
+ValeurCmp = 2k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FE4513
+Path = /57FDA5E5
+Reference = R7;
+ValeurCmp = 1.5k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FE4518
+Path = /57FDA66F
+Reference = R8;
+ValeurCmp = 1,5k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FE8C59
+Path = /57FA330C
+Reference = TLC1;
+ValeurCmp = TLC5940;
+IdModule  = matrixclock:TLC5940-HTSSOP-28;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FE8C94
+Path = /57FB4A39
+Reference = TLC2;
+ValeurCmp = TLC5940;
+IdModule  = matrixclock:TLC5940-HTSSOP-28;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FE8D0A
+Path = /57FB7049
+Reference = TLC4;
+ValeurCmp = TLC5940;
+IdModule  = matrixclock:TLC5940-HTSSOP-28;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FE8D45
+Path = /57FC3793
+Reference = TLC5;
+ValeurCmp = TLC5940;
+IdModule  = matrixclock:TLC5940-HTSSOP-28;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FE8D80
+Path = /57FC44EB
+Reference = TLC6;
+ValeurCmp = TLC5940;
+IdModule  = matrixclock:TLC5940-HTSSOP-28;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FE8DBB
+Path = /57FDA5CD
+Reference = TLC7;
+ValeurCmp = TLC5940;
+IdModule  = matrixclock:TLC5940-HTSSOP-28;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FE8DF6
+Path = /57FDA65D
+Reference = TLC8;
+ValeurCmp = TLC5940;
+IdModule  = matrixclock:TLC5940-HTSSOP-28;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FEB52F
+Path = /57FB6F7E
+Reference = TLC3;
+ValeurCmp = TLC5940;
+IdModule  = matrixclock:TLC5940-HTSSOP-28;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FE44CD
+Path = /57FBB32A
+Reference = C3;
+ValeurCmp = [NoVal];
+IdModule  = Capacitors_ThroughHole:C_Disc_D3_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FEBE65
+Path = /57FD3BCD
+Reference = C2;
+ValeurCmp = 100uF TANTALUM;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeX_EIA-7343;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FEBE6A
+Path = /57FBB324
+Reference = C4;
+ValeurCmp = [NoVal];
+IdModule  = Capacitors_ThroughHole:C_Disc_D3_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FEBE6F
+Path = /57FBC792
+Reference = C5;
+ValeurCmp = [NoVal];
+IdModule  = Capacitors_ThroughHole:C_Disc_D3_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FEBE74
+Path = /57FBC78C
+Reference = C6;
+ValeurCmp = [NoVal];
+IdModule  = Capacitors_ThroughHole:C_Disc_D3_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FEBE79
+Path = /57FBCA16
+Reference = C7;
+ValeurCmp = [NoVal];
+IdModule  = Capacitors_ThroughHole:C_Disc_D3_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FEBE7E
+Path = /57FBCA10
+Reference = C8;
+ValeurCmp = [NoVal];
+IdModule  = Capacitors_ThroughHole:C_Disc_D3_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 57FEBE83
+Path = /57FBCA22
+Reference = C9;
+ValeurCmp = [NoVal];
+IdModule  = Capacitors_ThroughHole:C_Disc_D3_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 580106F8
+Path = /58015E95
+Reference = C11;
+ValeurCmp = 100uF;
+IdModule  = Capacitors_Tantalum_SMD:TantalC_SizeX_EIA-7343;
+EndCmp
+
+BeginCmp
+TimeStamp = 58010997
+Path = /58017D0F
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_0603_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801099C
+Path = /57FBCA1C
+Reference = C10;
+ValeurCmp = [NoVal];
+IdModule  = Capacitors_ThroughHole:C_Disc_D3_P2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = 58010F0E
+Path = 
+Reference = REF***;
+ValeurCmp = OSHW-Logo2_14.6x12mm_SilkScreen;
+IdModule  = Symbols:OSHW-Logo2_14.6x12mm_SilkScreen;
+EndCmp
+
+BeginCmp
+TimeStamp = 58010F92
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3_ISO7380_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 58010F9E
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3_ISO7380_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 58010FAC
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3_ISO7380_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 580111C1
+Path = 
+Reference = [NoRef];
+ValeurCmp = [NoVal];
+IdModule  = Mounting_Holes:MountingHole_3.2mm_M3_ISO7380_Pad;
+EndCmp
+
+BeginCmp
+TimeStamp = 5801128C
+Path = 
+Reference = REF***;
+ValeurCmp = KiCad-Logo2_8mm_SilkScreen;
+IdModule  = Symbols:KiCad-Logo2_8mm_SilkScreen;
+EndCmp
+
+BeginCmp
+TimeStamp = 580126BA
+Path = 
+Reference = REF**;
+ValeurCmp = via-0.6mm;
+IdModule  = matrixclock:via-0.6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 580106FF
+Path = /5801797C
+Reference = P2;
+ValeurCmp = [NoVal];
+IdModule  = matrixclock:Pin_Header_Straight_1x03_fett;
+EndCmp
+
+EndListe
