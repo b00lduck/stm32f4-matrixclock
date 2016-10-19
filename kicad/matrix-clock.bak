@@ -28,8 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:IHE
-LIBS:open-project
 LIBS:matrix-clock-cache
 EELAYER 25 0
 EELAYER END
@@ -838,7 +836,7 @@ F 1 "CONN_02X08" V 5100 5800 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x08" H 5100 4600 50  0001 C CNN
 F 3 "" H 5100 4600 50  0000 C CNN
 	1    5100 5800
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Entry Wire Line
 	6050 5650 6150 5750
@@ -2409,10 +2407,10 @@ F 3 "" H 7350 5700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C?
+L C C12
 U 1 1 5801A712
 P 7100 5700
-F 0 "C?" H 7125 5800 50  0000 L CNN
+F 0 "C12" H 7125 5800 50  0000 L CNN
 F 1 "100n" H 7125 5600 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 7138 5550 50  0001 C CNN
 F 3 "" H 7100 5700 50  0000 C CNN
